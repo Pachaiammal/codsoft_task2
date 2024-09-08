@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background-color: #419ace;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.product-image {
+    display:block;
+    max-width: 100%;
+    height: 400;
+    margin:auto
+}
+
+.features-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    flex: 1 1 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+.feature-item img {
+    max-width: 300px;
+    height: 300px;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.discounted-price {
+    color: #e60000;
+    font-weight: bold;
+}
+
+.review {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+button {
+    background-color: #e60000;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c70000;
+}
+
+footer {
+    background-color: #419ace;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.social {
+    list-style: none;
+    padding: 0;
+}
+
+.social li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    margin: 0;
+}
